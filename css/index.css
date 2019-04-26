@@ -149,7 +149,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -159,6 +159,40 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.boxes #one{
+    background: teal;
+}
+.boxes #two{
+    background: gold;
+}
+.boxes #three{
+    background: cadetblue;
+}
+.boxes #four{
+    background: coral;
+}
+.boxes #five{
+    background: crimson;
+}
+.boxes #six{
+    background: forestgreen;
+}
+.boxes #seven{
+    background: darkorchid;
+}
+.boxes #eight{
+    background: hotpink;
+}
+.boxes #nine{
+    background: indigo;
+}
+.boxes #ten{
+    background: dodgerblue;
+}
+
+
+
 
 .bottom-content {
     display: flex;
