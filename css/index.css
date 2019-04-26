@@ -96,9 +96,7 @@ p {
     flex-wrap: nowrap;
     color: black;
     text-decoration: none;
-    
 }
-
 
 .image{
     margin: 0 auto;
@@ -109,8 +107,7 @@ p {
  .image-about{
     margin: 0 auto;
     width: 100%;
-    padding: 10px; 
-    
+    padding: 10px;    
  }
 
  img{
@@ -128,8 +125,7 @@ p {
      flex-direction: column;
      padding: 10px;
      align-items: left;
-     flex-wrap: nowrap;
-     
+     flex-wrap: nowrap; 
  }
 
 
@@ -159,11 +155,6 @@ p {
     border-bottom: 1px dashed black;
 }
 
-
-.middle{
-    justify-content: space-evenly;
-}
-
 .about{
     margin: 0 auto;
     padding: 20px;
@@ -173,7 +164,6 @@ p {
     border-bottom: 1px dashed black;
 }
 
-
 .row-about{
     width: 800px;
     padding: 20px;
@@ -182,10 +172,6 @@ p {
     flex-direction: row;
     align-content: center;
     justify-content: space-evenly;
-}
-
-.row-about img{
-    padding-top: 10px;
 }
 
 .container {
@@ -265,7 +251,6 @@ p {
     background: dodgerblue;
 }
 
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -279,7 +264,6 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
 
 footer {
     width: 100%;
@@ -296,7 +280,6 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;   
 }
-
 
 .last footer{
     margin: 0 auto;
