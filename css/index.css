@@ -140,26 +140,30 @@ p {
  }
 
 .work{
+    margin: 0 10px 0px 10px;
     border-bottom: 1px dashed black;
 }
 
 .strategy{
-
+    margin: 0 10px 0px 10px;
     border-bottom: 1px dashed black;
 }
 
 .places{
+    margin: 0 10px 10px 10px;
     border-bottom: 1px dashed black;
 }
 
 .collab{
+    margin: 0 10px 10px 10px;
     border-bottom: 1px dashed black;
-   
 }
+
 
 .middle{
     justify-content: space-evenly;
 }
+
 .about{
     margin: 0 auto;
     padding: 20px;
@@ -168,7 +172,6 @@ p {
     flex-direction: column;
     border-bottom: 1px dashed black;
 }
-
 
 
 .row-about{
@@ -337,6 +340,7 @@ footer nav a {
     margin-top: 20px;
     border-radius: 10px 10px 10px 10px;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .about hr{
