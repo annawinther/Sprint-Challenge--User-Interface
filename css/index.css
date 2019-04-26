@@ -116,13 +116,13 @@ p {
 
 .row-about{
     width: 800px;
+    padding: 20px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    align-content: ;
+    align-content: center;
+    justify-content: space-between;
 }
-
-
 
 .container {
     width: 800px;
@@ -219,6 +219,8 @@ p {
 footer {
     width: 100%;
     background: black;
+    display: flex;
+    justify-content: flex-start;
 }
 
 footer nav {
@@ -244,12 +246,13 @@ footer nav a {
 .more{
     display: flex;
 	flex-direction: column;
-	border: 1px solid black;
+	border: 2px solid black;
 	width: 30%;
 	justify-content: space-between;
 	background-color: white;
 	padding: 10px;
-	margin-top: 20px;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .about hr{
@@ -259,7 +262,7 @@ footer nav a {
 }
 
 .row-about hr{
-    width: 90%;
+    width: 95%;
     border: 1px dashed black;
     align-self: inherit;
 }
