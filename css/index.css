@@ -93,12 +93,33 @@ p {
     width: 100%;
     padding: 10px; 
 }
+ .image-about{
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px; 
+    
+ }
 
 .row{
     width: 800px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+}
+
+.about{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-about{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-content: ;
 }
 
 
@@ -181,8 +202,6 @@ p {
 }
 
 
-
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -214,4 +233,33 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.row-bottom{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.more{
+    display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	width: 30%;
+	justify-content: space-between;
+	background-color: white;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.about hr{
+    width: 100%;
+    border: 1px dashed black;
+    align-items: center;
+}
+
+.row-about hr{
+    width: 90%;
+    border: 1px dashed black;
+    align-self: inherit;
 }
