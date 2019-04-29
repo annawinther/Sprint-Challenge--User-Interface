@@ -1,4 +1,5 @@
 # Sprint Challenge: User Interface and Git - Multi-Page Website
+testtest
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
 
@@ -34,13 +35,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is a way to describe our code in a better way and also to describe tags with meaning. By using these tags, you can quickly figure out what each tag should be described as in HTML. Semantic HTML is therefore a way of saying that you can read a tag and know more about its meaning instantly. It provides meaning to out content.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: inline can be nested inside of other elements without disrupting the flow of content. It also takes up only as much width as it needs and does not force new lines.
+display: block is displayed as a block and cannot have other HTML elements next to it. It will break the flow of content on a new line. It also takes up as much space ad possible, and as the parent element will allow.
 
 3. What are the 4 areas of the box model?
 
+Content, padding, border and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+It works on the cross-axis. Items are centered in the cross axis when using the align-items: center.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuble to a team of developers as it is used to monitor and control changes made during development across a team (of devs).
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
